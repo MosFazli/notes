@@ -1,5 +1,6 @@
 {
-  "name": "now-ui-kit-react",
+  "homepage": "htttps://mosfazli.github.io/notes",
+  "name": "notes",
   "version": "1.5.0",
   "private": true,
   "dependencies": {
@@ -18,6 +19,8 @@
     "reactstrap": "8.9.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test",
